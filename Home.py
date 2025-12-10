@@ -203,5 +203,7 @@ with tab1:
             
 with tab1:
     with st.container():
+        st.markdown("### Distribuição de restaurantes por países")
         create_mapa(df1)
+
 
